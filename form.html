@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Type of Form</h1>
+    <p><i>This form don't get data, is just for sample building</i></p>
+    <form> <!-- Attributes action = go to file .php for example, method = get -->
+        <label for="formName">Name:</label>
+        <input id="formName" type="text" placeholder="Name" required><br>
+
+        <label for="formEmail">Email:</label>
+        <input id="formEmail" type="email" placeholder="Email" required><br>
+
+        <label for="formPassword">Password:</label>
+        <input id="formPassword" type="password" placeholder="Password" required><br>
+
+        <label for="formConfirmPassword">Confirm Password:</label>
+        <input id="formConfirmPassword" type="password" placeholder="Confirm Password"><br><br>
+
+        <h2>Choose a pet</h2>
+        <input type="radio" id="formDog" name="animals" value="dog">
+        <label for="formDog">Dog</label><br>
+        <input type="radio" id="formCat" name="animals" value="cat">
+        <label for="formCat">Cat</label><br>
+
+        <h2>Form Task List</h2>
+        <input type="checkbox" id="formInput" name="formTasks" value="inputForm">
+        <label for="formInput">Input</label><br>
+        <input type="checkbox" id="formLabel" name="formTasks" value="labelForm">
+        <label for="formLabel">Label</label><br>
+        <input type="checkbox" id="formRadioCheckbox" name="formTasks" value="radio&CheckboxForm">
+        <label for="formRadioCheckbox">Radio & Checkbox</label><br>
+        <input type="checkbox" id="formSubmit" name="formTasks" value="submitForm">
+        <label for="formSubmit">Submit</label><br>
+        <input type="checkbox" id="formSelect" name="formTasks" value="selectForm">
+        <label for="formSelect">Select</label><br>
+        <input type="checkbox" id="formTextArea" name="formTasks" value="textArea">
+        <label for="formTextArea">Text Area</label><br>
+
+        <input type="checkbox" id="" name="formTasks" value="">
+        <label for=""></label><br>
+        
+        <h2>Select Color</h2>
+        <select name="formColors">
+            <option disabled selected value="">Color</option>
+            <option value="red">Red</option>
+            <option value="red">Blue</option>
+            <option value="red">Green</option>
+        </select><br>
+
+        <h2>Write a Comment</h2>
+        <textarea rows="7" cols="50" placeholder="Write here!"></textarea>
+
+        <br><br>
+        <input type="submit">
+    </form>
+    <p><a href="index.html">Go Back</a></p>
+</body>
+</html>
